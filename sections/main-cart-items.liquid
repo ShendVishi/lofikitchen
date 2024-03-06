@@ -389,14 +389,15 @@
                     <td class="cart-item__totals right small-hide">
                       {%- render 'loading-spinner' -%}
                       <div class="cart-item__price-wrapper">
-                        {%- if item.original_line_price != item.final_line_price -%}
+                        {%- if item.variant.compare_at_price != item.final_price -%}
+                          {%- assign total_compare_at_price = item.variant.compare_at_price | times: item.quantity -%} 
                           <dl class="cart-item__discounted-prices">
                             <dt class="visually-hidden">
                               {{ 'products.product.price.regular_price' | t }}
                             </dt>
                             <dd>
                               <s class="cart-item__old-price price price--end">
-                                {{ item.original_line_price | money }}
+                                {{ total_compare_at_price | money }}
                               </s>
                             </dd>
                             <dt class="visually-hidden">
