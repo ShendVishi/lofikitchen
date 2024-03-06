@@ -248,6 +248,16 @@
         "padding_bottom": 36
       }
     },
+    "page_9yUfG8": {
+      "type": "page",
+      "settings": {
+        "page": "just-curious",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_with_text_RUjyTw": {
       "type": "image-with-text",
       "blocks": {
@@ -540,16 +550,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "page_9yUfG8": {
-      "type": "page",
-      "settings": {
-        "page": "just-curious",
-        "heading_size": "h1",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -558,12 +558,12 @@
     "rich_text_UmyPN9",
     "collection_list_VJg6cP",
     "collage_PV68Kc",
+    "page_9yUfG8",
     "image_with_text_RUjyTw",
     "image_with_text_ntDqy8",
     "image_with_text_NpKnJ7",
     "image_with_text_MMfG8M",
     "image_with_text_WHxiLG",
-    "multirow_pbMWzd",
-    "page_9yUfG8"
+    "multirow_pbMWzd"
   ]
 }
