@@ -464,7 +464,7 @@
                 -%}
               {%- when 'rating' -%}
                 {%- if product.metafields.reviews.rating.value != blank -%}
-                  <div class="rating-wrapper">
+                  <div class="rating-wrapper" onclick="goToReviews();">
                     {% liquid
                       assign rating_decimal = 0
                       assign decimal = product.metafields.reviews.rating.value.rating | modulo: 1
@@ -716,6 +716,14 @@
           hiddenInput.value = event.currentTarget.value;
         });
       });
+
+      function goToReviews(){
+        setTimeout(function(){
+          if (document.getElementById('judgeme_product_reviews')){
+            document.getElementById('judgeme_product_reviews').scrollIntoView({behavior: "smooth"});
+          }
+        }, 300);
+      }
     </script>
 
     {%- liquid
