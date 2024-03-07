@@ -169,7 +169,7 @@
                 {% else %}
                   href="{{ product.url }}"
                 {% endif %} class="full-unstyled-link">
-                <h2 class="product__title {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+                <h2 class="product__title-homepage product__title {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
                   {%- if product.title != blank -%}
                     {{ product.title | escape }}
                   {%- else -%}

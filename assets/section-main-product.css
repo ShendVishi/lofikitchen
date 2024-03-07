@@ -251,6 +251,11 @@ a.product__text {
   margin-bottom: 1.5rem;
 }
 
+/* Custom CSS */
+.product__title-homepage{
+  margin-top: 1.4rem;
+}
+
 .product__title > * {
   margin: 0;
 }
