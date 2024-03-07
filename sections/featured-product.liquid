@@ -164,6 +164,11 @@
                   {{- block.settings.text -}}
                 </p>
               {%- when 'title' -%}
+              <a {% if product == blank %}
+                  role="link" aria-disabled="true"
+                {% else %}
+                  href="{{ product.url }}"
+                {% endif %} class="full-unstyled-link">
                 <h2 class="product__title {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
                   {%- if product.title != blank -%}
                     {{ product.title | escape }}
@@ -171,6 +176,7 @@
                     {{ 'onboarding.product_title' | t }}
                   {%- endif -%}
                 </h2>
+              </a>
               {%- when 'price' -%}
                 <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                   {%- render 'price',
