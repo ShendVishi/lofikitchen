@@ -92,6 +92,11 @@
           "settings": {
           }
         },
+        "rating_WNfK8h": {
+          "type": "rating",
+          "settings": {
+          }
+        },
         "buy_buttons_W6QLdt": {
           "type": "buy_buttons",
           "settings": {
@@ -103,6 +108,7 @@
       "block_order": [
         "title_nwkfKt",
         "price_CydmkA",
+        "rating_WNfK8h",
         "buy_buttons_W6QLdt"
       ],
       "settings": {
