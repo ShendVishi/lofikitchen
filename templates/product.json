@@ -42,11 +42,11 @@
           "settings": {
             "layout": "horizontal",
             "icon_1": "recycle",
-            "heading_1": "recyclable",
+            "heading_1": "Recyclable",
             "icon_2": "return",
             "heading_2": "2-Day Refund Policy",
             "icon_3": "heart",
-            "heading_3": "with love and gratitude"
+            "heading_3": "With love and gratitude"
           }
         },
         "description": {
