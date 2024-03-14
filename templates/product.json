@@ -37,16 +37,6 @@
             "show_gift_card_recipient": true
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
-        "estimated_delivery_date_plus_delivery_coder_theme_hNP6gW": {
-          "type": "shopify:\/\/apps\/estimated-delivery-date-plus\/blocks\/delivery_coder_theme\/4a0685bc-c234-45b2-8382-5ad6a8e3e3fd",
-          "settings": {
-          }
-        },
         "icon_with_text_DCFwKM": {
           "type": "icon-with-text",
           "settings": {
@@ -57,6 +47,16 @@
             "heading_2": "2-Day Return Policy",
             "icon_3": "heart",
             "heading_3": "with love and gratitude"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "estimated_delivery_date_plus_delivery_coder_theme_hNP6gW": {
+          "type": "shopify:\/\/apps\/estimated-delivery-date-plus\/blocks\/delivery_coder_theme\/4a0685bc-c234-45b2-8382-5ad6a8e3e3fd",
+          "settings": {
           }
         },
         "share": {
@@ -73,9 +73,9 @@
         "price",
         "quantity_selector",
         "buy_buttons",
+        "icon_with_text_DCFwKM",
         "description",
         "estimated_delivery_date_plus_delivery_coder_theme_hNP6gW",
-        "icon_with_text_DCFwKM",
         "share"
       ],
       "settings": {
