@@ -254,6 +254,40 @@
         "padding_bottom": 52
       }
     },
+    "newsletter_wTfkax": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_RaWkXm": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our Newsletter",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_iMV7Xe": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections, exclusive offers, and how to Lofi Kitchen.<\/p>"
+          }
+        },
+        "email_form_BX7RYC": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading_RaWkXm",
+        "paragraph_iMV7Xe",
+        "email_form_BX7RYC"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "image_with_text_RUjyTw": {
       "type": "image-with-text",
       "blocks": {
@@ -554,6 +588,7 @@
     "collection_list_VJg6cP",
     "collage_PV68Kc",
     "rich_text_UmyPN9",
+    "newsletter_wTfkax",
     "image_with_text_RUjyTw",
     "image_with_text_ntDqy8",
     "image_with_text_NpKnJ7",
